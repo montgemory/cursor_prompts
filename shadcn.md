@@ -50,33 +50,10 @@
       </step>
       <step>
         <number>6</number>
-        <description>App structure</description>
-        <structure>
-          <folder_tree>
-            <![CDATA[
-.
-├── app
-│   ├── layout.tsx
-│   └── page.tsx
-├── components
-│   ├── ui
-├── lib
-│   └── utils.ts
-├── styles
-│   └── globals.css
-├── next.config.js
-├── package.json
-├── postcss.config.js
-├── tailwind.config.ts
-└── tsconfig.json
-            ]]>
-          </folder_tree>
-        </structure>
-        <notes>
-          <note>UI components are placed in the components/ui folder.</note>
-          <note>The lib folder contains all the utility functions. utils.ts defines the cn helper.</note>
-          <note>The styles folder contains the global CSS.</note>
-        </notes>
+        <description>Add Button Component</description>
+        <action>
+          <command>npx shadcn@latest add button</command>
+        </action>
       </step>
       <step>
         <number>7</number>
