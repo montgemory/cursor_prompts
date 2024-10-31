@@ -7,7 +7,7 @@
         <number>1</number>
         <description>Create a New Next.js Project</description>
         <action>
-          <command>npx create-next-app@latest frontend</command>
+          <command>\npx create-next-app@latest frontend</command>
         </action>
         <details>
           <item>Create a new directory named frontend.</item>
